@@ -1,0 +1,19 @@
+{
+  "name": "mcstatus-bitfieldcalulator",
+  "version": "1.0.0",
+  "description": "this package can be used to calculate the bitfields for our api token permissions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MCStatusBot/bitfieldcalulator.git"
+  },
+  "author": "404invalid-user",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MCStatusBot/bitfieldcalulator/issues"
+  },
+  "homepage": "https://github.com/MCStatusBot/bitfieldcalulator#readme"
+}
