@@ -1,6 +1,6 @@
 {
   "name": "mcstatus-bitfieldcalulator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "this package can be used to calculate the bitfields for our api token permissions",
   "main": "index.js",
   "scripts": {

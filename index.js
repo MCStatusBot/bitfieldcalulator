@@ -1,16 +1,31 @@
 //code from https://www.npmjs.com/package/discord-bitfield-calculator/
 
 const permissions = {
-    CREATE_MINECRAFT_SERVER: 0x1,
-    VIEW_CHANNEL: 0x4,
-    EDIT_MINECRAFT_SERVER: 0x8,
-    DELETE_MINECRAFT_SERVER: 0x10,
-    VIEW_MINECRAFT_SERVERS: 0x20,
-    EDIT_DISCORD_SERVER: 0x40,
-    CREATE_MESSAGE_WATCHER: 0x80,
-    CREATE_CHANNEL_WATCHER: 0x100,
-    WEBSOCKET: 0x200,
+    // Minecraft server permissions
+    VIEW_MINECRAFT_SERVERS: 0x1,
+    EDIT_MINECRAFT_SERVERS: 0x2,
+    CREATE_MINECRAFT_SERVERS: 0x4,
+    DELETE_MINECRAFT_SERVERS: 0x8,
+    LINK_MINECRAFTSERVER_TO_GUILD: 0x10,
+    EDIT_MINECRAFTSERVER_ADMINS: 0x20,
+    EDIT_MINECRAFTSERVER_MAINGUILD: 0x40,
+    EDIT_MINECRAFTSERVER_NAME: 0x80,
+    EDIT_MINECRAFTSERVER_DESCRIPTION: 0x100,
+    DELETE_MINECRAFTSERVER_LOGS: 0x200,
+    SET_MINECRAFTSERVER_PRIVATE: 0x400,
+
+    // Discord server permissions
+    VIEW_DISCORD_SERVERS: 0x1000,
+    EDIT_DISCORD_SERVERS: 0x2000,
+
+    // User settings permissions
+    VIEW_USER_SETTINGS: 0x4000,
+    EDIT_USER_SETTINGS: 0x8000,
+
+    // Websocket permission
+    WEBSOCKET: 0x10000
 };
+
 /**
  * calculate the permissions from a bitfield
  * @param {*} permBitfield 
