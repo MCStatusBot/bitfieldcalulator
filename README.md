@@ -1,5 +1,5 @@
 # MCStatus Bot Bitfield Calculator
-This NPM package provides a utility for calculating bitfields for our API token permissions.
+This NPM package provides a utility for calculating bitfields for our permissions you can grant on things like mcservers and api tokens.
 
 ## Usage
 Here are some examples:
